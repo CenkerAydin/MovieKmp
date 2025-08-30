@@ -1,23 +1,34 @@
-This is a Kotlin Multiplatform project targeting Android, iOS, Web, Desktop (JVM).
+# 🎬 CineScope (KMP Edition)
 
-* [/composeApp](./composeApp/src) is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - [commonMain](./composeApp/src/commonMain/kotlin) is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    the [iosMain](./composeApp/src/iosMain/kotlin) folder would be the right place for such calls.
-    Similarly, if you want to edit the Desktop (JVM) specific part, the [jvmMain](./composeApp/src/jvmMain/kotlin)
-    folder is the appropriate location.
+CineScope is a **Kotlin Multiplatform (KMP)** application for discovering movies and exploring detailed information from TMDB.  
+The project runs seamlessly on **Android, iOS, and Desktop**, sharing business logic across platforms while keeping native UI experiences.
 
-* [/iosApp](./iosApp/iosApp) contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform,
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+---
 
+## ✨ Features
+- 🔍 Search for movies with detailed filters
+- 📄 View movie details (overview, release date, rating, etc.)
+- ⭐ Mark favorites for quick access
+- 📱 Works across **Android, iOS, and Desktop**
+- 🚀 Built with **Kotlin Multiplatform** for shared logic
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html),
-[Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform/#compose-multiplatform),
-[Kotlin/Wasm](https://kotl.in/wasm/)…
+---
 
-We would appreciate your feedback on Compose/Web and Kotlin/Wasm in the public Slack channel [#compose-web](https://slack-chats.kotlinlang.org/c/compose-web).
-If you face any issues, please report them on [YouTrack](https://youtrack.jetbrains.com/newIssue?project=CMP).
+## 🛠️ Tech Stack
+- **Kotlin Multiplatform** (shared codebase)
+- **Jetpack Compose Multiplatform** (UI for Android & Desktop)
+- **SwiftUI** (UI for iOS)
+- **Ktor Client** (networking)
+- **SQLDelight** (local database)
+- **Coroutines & Flow** (async & reactive programming)
+- **MVVM + Clean Architecture** (scalable architecture)
 
-You can open the web application by running the `:composeApp:wasmJsBrowserDevelopmentRun` Gradle task.
+---
+
+## 🔑 TMDB API Key
+
+This project uses the [TMDB API](https://www.themoviedb.org/documentation/api) for fetching movie data.  
+To run the project, you need to add your TMDB API key in a `local.properties` file:
+
+```properties
+TMDB_API_KEY=your_api_key_here
