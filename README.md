@@ -4,6 +4,13 @@ CineScope is a **Kotlin Multiplatform (KMP)** application for discovering movies
 The project runs seamlessly on **Android, iOS, and Desktop**, sharing business logic across platforms while keeping native UI experiences.
 
 ---
+## 📌 Development
+
+The project’s active development and version control history were primarily managed on **Bitbucket**.  
+This GitHub repository contains a migrated version of the codebase for portfolio and showcase purposes,  
+therefore the commit count here is lower than the actual development activity.
+
+---
 ## 📸 Screenshots
 
 <div style="display: flex; flex-direction: column; gap: 40px;">
