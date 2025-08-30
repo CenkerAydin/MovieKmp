@@ -1,0 +1,41 @@
+<resources>
+    <!-- Settings Screen -->
+    <string name="settings">Ayarlar</string>
+    <string name="dark_mode">Koyu Mod</string>
+    <string name="light_mode">Açık Mod</string>
+    <string name="language">Dil</string>
+    <string name="select_language">Dil Seçin</string>
+    <string name="cancel">İptal</string>
+    <string name="ok">Tamam</string>
+    <string name="apply">Uygula</string>
+    <string name="movies">Filmler</string>
+    <string name="favorites">Favoriler</string>
+    <!-- Language Names -->
+    <string name="english">İngilizce</string>
+    <string name="turkish">Türkçe</string>
+    <string name="spanish">İspanyolca</string>
+    <string name="german">Almanca</string>
+
+    <!-- Theme Options -->
+    <string name="theme">Tema</string>
+    <string name="system_theme">Sistem Varsayılanı</string>
+    <string name="auto">Otomatik</string>
+
+    <!-- General -->
+    <string name="app_name">Uygulamam</string>
+    <string name="save">Kaydet</string>
+    <string name="reset">Sıfırla</string>
+    <string name="close">Kapat</string>
+    <string name="back">Geri</string>
+    <string name="next">İleri</string>
+    <string name="done">Bitti</string>
+
+    <!-- Messages -->
+    <string name="language_changed">Dil başarıyla değiştirildi</string>
+    <string name="restart_required">Değişikliklerin uygulanması için lütfen uygulamayı yeniden başlatın</string>
+    <string name="settings_saved">Ayarlar kaydedildi</string>
+
+    <!-- Accessibility -->
+    <string name="toggle_dark_mode">Koyu modu aç/kapat</string>
+    <string name="select_language_option">Dil seçeneğini seç</string>
+</resources>

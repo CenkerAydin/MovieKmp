@@ -1,0 +1,24 @@
+CREATE TABLE favorite_movies (
+    id INTEGER NOT NULL PRIMARY KEY,
+    title TEXT NOT NULL,
+    posterPath TEXT,
+    releaseDate TEXT NOT NULL,
+    voteAverage REAL NOT NULL
+);
+
+-- Örnek queryler
+getAllFavoriteMovies:
+SELECT * FROM favorite_movies;
+
+getFavoriteMovieById:
+SELECT * FROM favorite_movies
+WHERE id = ?;
+
+insertFavoriteMovie:
+INSERT OR REPLACE INTO favorite_movies(id, title, posterPath, releaseDate, voteAverage)
+VALUES (?, ?, ?, ?, ?);
+
+deleteFavoriteMovie:
+DELETE FROM favorite_movies WHERE id = ?;
+
+

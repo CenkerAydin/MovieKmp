@@ -1,0 +1,41 @@
+<resources>
+    <!-- Settings Screen -->
+    <string name="settings">Einstellungen</string>
+    <string name="dark_mode">Dunkler Modus</string>
+    <string name="light_mode">Heller Modus</string>
+    <string name="language">Sprache</string>
+    <string name="select_language">Sprache Auswählen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="ok">OK</string>
+    <string name="apply">Anwenden</string>
+    <string name="movies">Filme</string>
+    <string name="favorites">Favoriten</string>
+    <!-- Language Names -->
+    <string name="english">Englisch</string>
+    <string name="turkish">Türkisch</string>
+    <string name="spanish">Spanisch</string>
+    <string name="german">Deutsch</string>
+
+    <!-- Theme Options -->
+    <string name="theme">Design</string>
+    <string name="system_theme">Systemstandard</string>
+    <string name="auto">Automatisch</string>
+
+    <!-- General -->
+    <string name="app_name">Meine App</string>
+    <string name="save">Speichern</string>
+    <string name="reset">Zurücksetzen</string>
+    <string name="close">Schließen</string>
+    <string name="back">Zurück</string>
+    <string name="next">Weiter</string>
+    <string name="done">Fertig</string>
+
+    <!-- Messages -->
+    <string name="language_changed">Sprache erfolgreich geändert</string>
+    <string name="restart_required">Bitte starten Sie die App neu, um die Änderungen zu übernehmen</string>
+    <string name="settings_saved">Einstellungen gespeichert</string>
+
+    <!-- Accessibility -->
+    <string name="toggle_dark_mode">Dunklen Modus umschalten</string>
+    <string name="select_language_option">Sprachoption auswählen</string>
+</resources>
